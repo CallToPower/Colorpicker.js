@@ -1,0 +1,19 @@
+canvas {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid #ccc;
+}
+
+:focus {
+	outline: none;
+}
+::-moz-focus-inner {
+	border: 0;
+}
+
+#toolsContainer {
+	margin-left: 10px;
+	width: 50%;
+}

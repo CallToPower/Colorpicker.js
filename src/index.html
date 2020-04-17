@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<head>
+	<title>
+		ColorPicker.js
+	</title>
+	
+	<link type="text/css" rel="stylesheet" href="css/index.css" />
+	
+	<script type="text/javascript" src="js/lib/jquery-3.0.5.js"></script>
+	<script type="text/javascript" src="js/lib/colorpicker.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+	Note: Don't start locally without a server (cross-origin).<br />
+	Note: "Fingerprinting" may be blocke by your browser.
+	This script does not work without it.
+	You have to click on the image and select "Allow HTML5 canvcas image data".
+	<br />
+	<br />
+	<div id="toolsContainer">
+		Color picker [Current: <span id="color_current"></span>]:
+		<br />
+		<span id="livePreview">#000000</span>
+		<br />
+		<canvas id="canvas_colorPicker" width="200" height="200"></canvas>
+	</div>
+</body>
+
+</html>
